@@ -19,6 +19,8 @@
 		E8261E7B28F52A3F00F510E6 /* ParstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8261E7A28F52A3F00F510E6 /* ParstagramUITestsLaunchTests.swift */; };
 		E8261E8828F530A600F510E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8261E8728F530A600F510E6 /* LoginViewController.swift */; };
 		E8261E8A28F530C000F510E6 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8261E8928F530C000F510E6 /* FeedViewController.swift */; };
+		E8261E8C28FE3F7D00F510E6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8261E8B28FE3F7D00F510E6 /* CameraViewController.swift */; };
+		E8261E8E28FE4C5D00F510E6 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8261E8D28FE4C5D00F510E6 /* PostCell.swift */; };
 		EC9784B1DA066BFB1F1666F9 /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A494A9CE688458C31E3FEB7 /* Pods_ParstagramTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +65,8 @@
 		E8261E7A28F52A3F00F510E6 /* ParstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E8261E8728F530A600F510E6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E8261E8928F530C000F510E6 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		E8261E8B28FE3F7D00F510E6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		E8261E8D28FE4C5D00F510E6 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,8 @@
 				E8261E6528F52A3E00F510E6 /* Info.plist */,
 				E8261E8728F530A600F510E6 /* LoginViewController.swift */,
 				E8261E8928F530C000F510E6 /* FeedViewController.swift */,
+				E8261E8B28FE3F7D00F510E6 /* CameraViewController.swift */,
+				E8261E8D28FE4C5D00F510E6 /* PostCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -410,9 +416,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8261E8828F530A600F510E6 /* LoginViewController.swift in Sources */,
+				E8261E8C28FE3F7D00F510E6 /* CameraViewController.swift in Sources */,
 				E8261E5828F52A3700F510E6 /* AppDelegate.swift in Sources */,
 				E8261E8A28F530C000F510E6 /* FeedViewController.swift in Sources */,
 				E8261E5A28F52A3700F510E6 /* SceneDelegate.swift in Sources */,
+				E8261E8E28FE4C5D00F510E6 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
